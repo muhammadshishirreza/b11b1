@@ -299,3 +299,63 @@ table, td{
     border-radius: 5px;
     text-align: center;
 }
+
+#subscription{
+    margin: 50px 0px;
+    padding: 80px 265px;
+    text-align: center;
+    background: rgba(198, 228, 214, 1);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#subscription p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+.email{
+    display: flex;
+    gap: 0px;
+}
+#sub{
+    margin: 0px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    padding: 10px;
+    width: 80%;
+}
+.btn-sub {
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 17px 34px;
+    cursor: pointer;
+    margin: 0px;
+}
+
+footer{
+    background-color: white;
+    margin: 50px 0px 0px;
+    padding: 25px 239px;
+    text-align: center;
+}
+.social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+footer h1{
+    font-size: 30px;
+    align-items: center;
+}
+footer hr{
+    margin: 25px 0px;
+}
