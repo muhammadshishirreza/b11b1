@@ -257,6 +257,45 @@ table, td{
     color: rgba(14, 14, 14, 0.7);
 }
 #donation{
-    
+    margin: 50px;
+    text-align: center;
+}
+#donation h1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 20px;
+}
+#donation p{
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+.donate-ammount{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
 }
 
+.donate{
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    align-items: center;
+    width: 200px;
+    margin-bottom: 30px;
+}
+.donate-selected{
+    background-color: rgba(198, 228, 214, 1);
+}
+#other-ammount{
+    width: 80%;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
